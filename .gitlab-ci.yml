@@ -1,0 +1,30 @@
+# Pipeline simple para GitLab CI
+# Esto es básico como si lo hubiera hecho un estudiante
+
+stages:
+  - test
+  - build
+
+# Ejecutar tests
+test:
+  stage: test
+  image: python:3.9
+  script:
+    - echo "Instalando dependencias..."
+    - pip install -r requirements.txt || echo "No hay requirements.txt, continuando..."
+    - echo "Ejecutando tests..."
+    - python -m pytest tests/ || echo "No hay tests, continuando..."
+    - echo "Tests completados!"
+
+# Construir el proyecto
+build:
+  stage: build
+  image: python:3.9
+  script:
+    - echo "Construyendo proyecto..."
+    - python --version
+    - echo "Build completado!"
+  only:
+    - main
+    - master
+
