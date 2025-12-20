@@ -1,5 +1,5 @@
 # Pipeline simple para GitHub Actions
-# Esto es básico como si lo hubiera hecho un estudiante
+
 
 name: CI Pipeline
 
