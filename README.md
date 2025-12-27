@@ -68,53 +68,7 @@ Despliegue completo a producción con monitoreo 24/7.
 ### 11. 📊 **Monitoring Continuo**
 Monitoreo, métricas y alertas automáticas.
 
-## 🎓 Aprendizaje de Resiliencia
 
-El **fallo aleatorio** (Chaos Engineering) te enseña:
-- ✅ Cómo detectar problemas temprano
-- ✅ Cómo hacer rollback automático
-- ✅ Cómo monitorear sistemas en tiempo real
-- ✅ Cómo diseñar sistemas resilientes
-- ✅ Cómo responder a incidentes
-
-## 👀 Cómo Ver el Pipeline en GitHub
-
-1. **Ve a tu repositorio**: https://github.com/Aquabag2/pipelines-
-2. **Haz clic en la pestaña "Actions"** (arriba del repositorio)
-3. **Verás el pipeline ejecutándose** con todas las etapas
-4. **Haz clic en una ejecución** para ver los detalles de cada etapa
-
-### 📸 Vista del Pipeline en GitHub Actions
-
-```
-Actions
-└── 🎯 Netflix-Amazon Style Pipeline (#1)
-    ├── 🔨 build ✅
-    ├── ✅ unit-tests ✅
-    ├── 🔗 integration-tests ✅
-    ├── 🔒 security-scan ✅
-    ├── 🎲 chaos-engineering ✅ (o ❌ si simula fallo)
-    ├── 🧪 staging-deploy ✅
-    ├── 💨 smoke-tests ✅
-    ├── 🐤 canary-deploy ✅
-    ├── 🔄 blue-green-deploy ✅
-    ├── 🚀 production-deploy ✅
-    └── 📊 monitoring ✅
-```
-
-## 🚀 Características Avanzadas
-
-- ✅ **Resiliencia**: Rollback automático en cualquier etapa
-- ✅ **Seguridad**: Escaneo automático de vulnerabilidades
-- ✅ **Despliegue Gradual**: Canary → Blue-Green → Production
-- ✅ **Monitoreo**: Observabilidad 24/7
-- ✅ **Chaos Engineering**: Fallos aleatorios para aprender
-
-## 📖 Inspiración
-
-Este pipeline está inspirado en las mejores prácticas de:
-- **Netflix**: Chaos Monkey, Spinnaker, despliegues canary
-- **Amazon**: CodePipeline, blue-green deployments, monitoreo continuo
 
 ---
 
