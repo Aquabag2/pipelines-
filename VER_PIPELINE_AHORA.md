@@ -45,11 +45,32 @@ CI Pipeline (#1) - running (o completed)
 
 ## ¿Qué deberías ver?
 
-Si todo funciona bien:
-- ✅ **test**: Instalando dependencias... → Tests completados!
-- ✅ **build**: Construyendo proyecto... → Build completado!
+### 🚀 Pipeline Avanzado (Nuevo)
 
-Si hay algún problema:
+Ahora verás un pipeline completo estilo Netflix/Amazon con **11 etapas**:
+
+1. ✅ **build** - Compilando y empaquetando
+2. ✅ **unit-tests** - Tests unitarios
+3. ✅ **integration-tests** - Tests de integración
+4. ✅ **security-scan** - Escaneo de seguridad
+5. 🎲 **chaos-engineering** - Fallo aleatorio (10% probabilidad) ⚠️
+6. ✅ **staging-deploy** - Despliegue en staging
+7. ✅ **smoke-tests** - Tests rápidos
+8. ✅ **canary-deploy** - Despliegue canary (5% tráfico)
+9. ✅ **blue-green-deploy** - Despliegue blue-green (50% tráfico)
+10. ✅ **production-deploy** - Despliegue a producción
+11. ✅ **monitoring** - Monitoreo continuo
+
+### ⚠️ Sobre el Fallo Aleatorio (Chaos Engineering)
+
+El paso **chaos-engineering** tiene **10% de probabilidad** de fallar intencionalmente. Esto es **normal y educativo**:
+- ✅ Te enseña resiliencia
+- ✅ Simula fallos reales
+- ✅ El pipeline continúa para demostración
+
+Si ves que falla, es parte del aprendizaje. El pipeline seguirá ejecutándose.
+
+Si hay algún problema real:
 - ❌ Verás en rojo qué falló
 - Puedes hacer clic para ver los logs del error
 
