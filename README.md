@@ -1,6 +1,6 @@
-# 🚀 Pipeline CI/CD Avanzado - Inspirado en Netflix/Amazon
+# 🚀 Pipeline
 
-Pipeline CI/CD profesional con **Chaos Engineering** (fallo aleatorio) para aprender resiliencia, inspirado en las prácticas de Netflix y Amazon.
+
 
 ## 📊 Diagrama del Pipeline
 
